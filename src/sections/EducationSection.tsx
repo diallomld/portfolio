@@ -41,7 +41,7 @@ export function EducationSection() {
               <div className="h-14 w-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
                 <GraduationCap className="h-7 w-7 text-primary" />
               </div>
-              
+
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-foreground mb-2">{edu.degree}</h3>
                 <div className="flex flex-wrap items-center gap-4 text-sm font-medium text-muted-foreground mb-4">

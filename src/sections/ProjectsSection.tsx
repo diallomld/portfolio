@@ -37,7 +37,6 @@ export function ProjectsSection() {
           viewport={{ once: true }}
           className="mb-12 text-center"
         >
-          <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">// 03. réalisations</p>
           <h2 className="text-4xl sm:text-5xl font-black text-foreground mb-4">
             Mes <span className="gradient-text">Projets</span>
           </h2>
@@ -72,11 +71,10 @@ export function ProjectsSection() {
                 key={tech}
                 id={`filter-pill-${tech.toLowerCase().replace(/[\s.+]/g, '-')}`}
                 onClick={() => setActiveFilter(tech)}
-                className={`px-3 py-1.5 text-xs font-medium rounded-lg border transition-all ${
-                  activeFilter === tech
+                className={`px-3 py-1.5 text-xs font-medium rounded-lg border transition-all ${activeFilter === tech
                     ? 'bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/20'
                     : 'border-border/70 text-muted-foreground hover:border-primary/40 hover:text-foreground'
-                }`}
+                  }`}
               >
                 {tech}
               </button>

@@ -18,7 +18,6 @@ function LandingPage() {
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
-        <EducationSection />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />

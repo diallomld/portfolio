@@ -111,7 +111,7 @@ export function HeroSection() {
           transition={{ delay: 0.4 }}
           className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Vous cherchez un profil technique <span className="text-foreground font-semibold">fiable et orienté solution</span> ? Fort de mes 3 ans d’expérience, j'accompagne vos projets du back au front en garantissant qualité et performance.
+          Vous cherchez un profil technique <span className="text-foreground font-semibold">fiable et orienté solution</span> ? Fort de plus de 3 ans d’expérience, j'accompagne vos projets du back au front jusqu'au devops en garantissant qualité et performance.
         </motion.p>
 
         {/* CTA Buttons */}

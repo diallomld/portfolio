@@ -19,7 +19,6 @@ export function AboutSection() {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-          <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">// 01. à propos</p>
           <h2 className="text-4xl sm:text-5xl font-black text-foreground">
             Qui suis-<span className="gradient-text">je ?</span>
           </h2>
@@ -61,7 +60,7 @@ export function AboutSection() {
                   <span className="text-emerald-400">{'    \'Docker\', \'AWS\', \'CI/CD\',\n'}</span>
                   <span className="text-yellow-400">{'  ]'}</span><span className="text-foreground">{',\n'}</span>
                   <span className="text-blue-400">{'  contact'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'diallomalamine5@gmail.com\''}</span><span className="text-foreground">{',\n'}</span>
-                  <span className="text-blue-400">{'  qualities'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'Analyse & Esprit d\\\'équipe\''}</span><span className="text-foreground">{',\n'}</span>
+                  <span className="text-blue-400">{'  qualities'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'Analyse & Esprit d\'équipe\''}</span><span className="text-foreground">{',\n'}</span>
                   <span className="text-yellow-400">{'}'}</span>
                 </code>
               </pre>
@@ -77,14 +76,13 @@ export function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Développeur Full Stack avec <span className="text-foreground font-semibold">3 ans d'expérience</span>,
+              Développeur Full Stack avec <span className="text-foreground font-semibold"> plus de 3 ans d'expérience</span>,
               j'interviens aussi bien sur le backend que le frontend, avec une expertise forte sur
-              des technologies telles que Java, Python, React et Vue.js.
+              des technologies telles que Java, Python, React, Vue.js et PHP/Laravel.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Je suis capable de concevoir, développer, maintenir et sécuriser des
-              applications web de bout en bout. Fort de mon Master en ingénierie des systèmes complexes,
-              j'ai un fort goût pour l'analyse et suis moteur dans l'initiative d'équipe.
+              applications web de bout en bout.
             </p>
 
             {/* Actions */}
@@ -98,14 +96,6 @@ export function AboutSection() {
                 <Github className="h-4 w-4" />
                 GitHub
                 <ExternalLink className="h-3 w-3 opacity-50" />
-              </a>
-              <a
-                href="#"
-                download
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-border text-sm font-medium text-foreground hover:border-primary/50 hover:bg-primary/5 transition-all"
-              >
-                <Download className="h-4 w-4" />
-                CV PDF
               </a>
               <button
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}

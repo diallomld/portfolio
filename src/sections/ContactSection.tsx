@@ -6,11 +6,11 @@ import { supabase, isSupabaseConfigured } from '@/lib/supabase'
 import type { Message } from '@/lib/supabase'
 
 const contactInfo = [
-  { icon: Mail,     label: 'Email',         value: 'diallomalamine5@gmail.com', href: 'mailto:diallomalamine5@gmail.com' },
-  { icon: Phone,    label: 'Téléphone',     value: '07 58 39 62 69',           href: 'tel:+33758396269'                 },
-  { icon: Github,   label: 'GitHub',        value: '@diallomld',                href: 'https://github.com/diallomld'     },
-  { icon: Linkedin, label: 'LinkedIn',      value: 'in/diallomld',              href: 'https://linkedin.com/in/diallomld'},
-  { icon: MapPin,   label: 'Localisation',  value: 'Paris, France 🇫🇷',         href: null                               },
+  { icon: Mail, label: 'Email', value: 'diallomalamine5@gmail.com', href: 'mailto:diallomalamine5@gmail.com' },
+  { icon: Phone, label: 'Téléphone', value: '07 58 39 62 69', href: 'tel:+33758396269' },
+  { icon: Github, label: 'GitHub', value: '@diallomld', href: 'https://github.com/diallomld' },
+  { icon: Linkedin, label: 'LinkedIn', value: 'in/diallomld', href: 'https://linkedin.com/in/diallomld' },
+  { icon: MapPin, label: 'Localisation', value: 'Paris, France 🇫🇷', href: null },
 ]
 
 interface FormState { name: string; email: string; subject: string; body: string }
@@ -72,7 +72,6 @@ export function ContactSection() {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-          <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">// 05. contact</p>
           <h2 className="text-4xl sm:text-5xl font-black text-foreground mb-4">
             Me <span className="gradient-text">Contacter</span>
           </h2>

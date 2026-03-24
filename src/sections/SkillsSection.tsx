@@ -140,7 +140,6 @@ export function SkillsSection() {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-          <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">// 02. expertise</p>
           <h2 className="text-4xl sm:text-5xl font-black text-foreground mb-4">
             Mes <span className="gradient-text">Compétences</span>
           </h2>
@@ -173,8 +172,8 @@ export function SkillsSection() {
                   {loading
                     ? Array.from({ length: 6 }).map((_, i) => <SkillCardSkeleton key={i} />)
                     : grouped[key].map(skill => (
-                        <SkillItem key={skill.id} skill={skill} barClass={cat.bar} />
-                      ))}
+                      <SkillItem key={skill.id} skill={skill} barClass={cat.bar} />
+                    ))}
                 </div>
               </motion.div>
             )

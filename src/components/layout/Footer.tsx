@@ -9,7 +9,6 @@ const socialLinks = [
 const navLinks = [
   { href: '#about', label: 'À propos' },
   { href: '#experience', label: 'Parcours' },
-  { href: '#education', label: 'Formation' },
   { href: '#skills', label: 'Compétences' },
   { href: '#projects', label: 'Projets' },
   { href: '#contact', label: 'Contact' },
@@ -36,7 +35,7 @@ export function Footer() {
               </span>
             </button>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Développeur Full Stack & DevOps. Architectures cloud-native, expériences utilisateur premium.
+              Développeur Full Stack & DevOps.
             </p>
           </div>
 
@@ -91,10 +90,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border/40 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-          <p>© {year} Lamine DIALLO. Tous droits réservés.</p>
-          <p className="flex items-center gap-1">
-            Fait avec <Heart className="h-3 w-3 text-red-400 fill-red-400 mx-0.5" /> React + TypeScript + Tailwind
-          </p>
+          <p className='justify-center items-center mx-auto text-center'>© {year} Lamine DIALLO. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
