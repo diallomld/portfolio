@@ -94,7 +94,7 @@ export function useProjects() {
 
         if (sbError) throw sbError
         setProjects(data ?? staticProjects)
-      } catch (e) {
+      } catch {
         setError('Erreur lors du chargement des projets')
         setProjects(staticProjects)
       } finally {

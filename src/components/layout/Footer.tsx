@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Code2, Zap, Heart, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, Mail, Code2, Zap, ArrowUp } from 'lucide-react'
 
 const socialLinks = [
   { href: 'https://github.com/diallomld', icon: Github, label: 'GitHub' },

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Moon, Sun, Menu, X, Code2, Zap } from 'lucide-react'
-import { useTheme } from '@/contexts/ThemeContext'
+import { useTheme } from '@/contexts/theme-context'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
 

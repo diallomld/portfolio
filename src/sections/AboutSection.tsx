@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Terminal, ArrowRight, Github, ExternalLink, Download } from 'lucide-react'
+import { Terminal, ArrowRight, Github, ExternalLink } from 'lucide-react'
 
 const stats = [
   { value: '3+', label: 'Années d\'expérience' },
