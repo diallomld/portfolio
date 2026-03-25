@@ -89,7 +89,6 @@ export function ExperienceSection() {
           viewport={{ once: true }}
           className="mb-16 text-center"
         >
-          <p className="text-xs font-mono text-primary tracking-widest uppercase mb-3">// 03. parcours</p>
           <h2 className="text-4xl sm:text-5xl font-black text-foreground mb-4">
             Mon <span className="gradient-text">Expérience</span>
           </h2>
@@ -118,10 +117,9 @@ export function ExperienceSection() {
                 </div>
 
                 {/* Collapsible Card */}
-                <div 
-                  className={`flex-1 rounded-2xl border bg-card/50 overflow-hidden transition-all duration-300 ${
-                    isExpanded ? 'border-primary/50 shadow-md shadow-primary/5' : 'border-border/60 hover:border-border cursor-pointer shadow-sm hover:shadow-md'
-                  }`}
+                <div
+                  className={`flex-1 rounded-2xl border bg-card/50 overflow-hidden transition-all duration-300 ${isExpanded ? 'border-primary/50 shadow-md shadow-primary/5' : 'border-border/60 hover:border-border cursor-pointer shadow-sm hover:shadow-md'
+                    }`}
                   onClick={() => !isExpanded && setExpandedId(exp.id)}
                 >
                   {/* Card Header (Always visible) */}
@@ -142,7 +140,7 @@ export function ExperienceSection() {
                           </span>
                         </div>
                       </div>
-                      
+
                       {/* Date Badge */}
                       <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary/80 rounded-lg text-xs font-semibold text-muted-foreground whitespace-nowrap border border-border/40 shrink-0">
                         <Calendar className="h-3.5 w-3.5" />
@@ -161,7 +159,7 @@ export function ExperienceSection() {
                     </div>
 
                     {/* Expand Trigger */}
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.stopPropagation()
                         setExpandedId(isExpanded ? null : exp.id)

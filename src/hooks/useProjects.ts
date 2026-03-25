@@ -4,14 +4,25 @@ import { supabase, isSupabaseConfigured, type Project } from '@/lib/supabase'
 // Static fallback data — used when Supabase is not configured
 const staticProjects: Project[] = [
   {
-    id: '1',
-    title: 'SaaS Multi-Tenant Platform',
-    slug: 'saas-multi-tenant',
-    description: 'Plateforme SaaS multi-tenant avec gestion des organisations, facturation Stripe et tableau de bord en temps réel.',
+    id: '0',
+    title: 'Application de gestion de stock et de facturation',
+    slug: 'stockpro',
+    description: 'SaaS PWA user friendly et responsive pour la gestion de stock et de facturation.',
     content_md: '## Description\nPlateforme full-stack avec authentification OAuth, isolation RLS Supabase, et webhooks Stripe.',
-    tech_stack: ['Next.js', 'TypeScript', 'Supabase', 'Stripe', 'PostgreSQL', 'Tailwind'],
-    github_url: 'https://github.com',
-    demo_url: '',
+    tech_stack: ['React', 'TypeScript', 'Tailwind', 'Supabase', 'PostgreSQL', 'Tailwind', 'Vitest', 'PostHog', 'Sonarqube', 'Github Actions CI/CD', 'Vercel', 'OpenAPI'],
+    github_url: '',
+    demo_url: 'https://stockpro.sn',
+    priority: 0,
+  },
+  {
+    id: '1',
+    title: 'Portfolio',
+    slug: 'portfolio',
+    description: 'Portfolio personnel developper avec react, Framer Motion et tailwind.',
+    content_md: '## Description\nPlateforme full-stack avec authentification OAuth, isolation RLS Supabase, et webhooks Stripe.',
+    tech_stack: ['React', 'TypeScript', 'Tailwind', 'Framer Motion', 'Vitest', 'PostHog', 'Sonarqube', 'eslint', 'Github Actions CI/CD', 'Vercel', 'OpenAPI'],
+    github_url: 'https://github.com/diallomld/portfolio/',
+    demo_url: 'https://portfolio-weld-psi-28.vercel.app/',
     priority: 1,
   },
   {

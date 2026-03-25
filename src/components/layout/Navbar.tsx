@@ -83,10 +83,6 @@ export function Navbar() {
                 <Code2 className="h-4 w-4 text-primary" />
                 <Zap className="absolute -right-1 -top-1 h-3 w-3 text-primary fill-primary" />
               </div>
-              <span className="font-bold text-base tracking-tight">
-                <span className="gradient-text">Dev</span>
-                <span className="text-foreground">Folio</span>
-              </span>
             </button>
 
             {/* Desktop nav */}
