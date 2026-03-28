@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Mail, Github, MapPin, Phone, Calendar } from 'lucide-react'
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'diallomalamine5@gmail.com', href: 'mailto:diallomalamine5@gmail.com' },
+  { icon: Mail, label: 'Email', value: 'm.lamine.diallo.pro@gmail.com', href: 'mailto:m.lamine.diallo.pro@gmail.com' },
   { icon: Phone, label: 'Téléphone', value: '07 58 39 62 69', href: 'tel:+33758396269' },
   { icon: Github, label: 'GitHub', value: '@diallomld', href: 'https://github.com/diallomld' },
   { icon: MapPin, label: 'Localisation', value: 'Paris, France 🇫🇷', href: null },

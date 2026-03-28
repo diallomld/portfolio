@@ -150,7 +150,7 @@ export function HeroSection() {
           {[
             { href: 'https://github.com/diallomld', icon: Github, label: 'GitHub' },
             { href: 'https://linkedin.com/in/diallomld', icon: Linkedin, label: 'LinkedIn' },
-            { href: 'mailto:diallomalamine5@gmail.com', icon: Mail, label: 'Email' },
+            { href: 'mailto:m.lamine.diallo.pro@gmail.com', icon: Mail, label: 'Email' },
           ].map(({ href, icon: Icon, label }) => (
             <a
               key={label}

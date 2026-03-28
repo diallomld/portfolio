@@ -2,7 +2,7 @@ import { Github, Mail, Code2, Zap, ArrowUp } from 'lucide-react'
 
 const socialLinks = [
   { href: 'https://github.com/diallomld', icon: Github, label: 'GitHub' },
-  { href: 'mailto:diallomalamine5@gmail.com', icon: Mail, label: 'Email' },
+  { href: 'mailto:m.lamine.diallo.pro@gmail.com', icon: Mail, label: 'Email' },
 ]
 
 const navLinks = [

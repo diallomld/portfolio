@@ -59,7 +59,7 @@ export function AboutSection() {
                   <span className="text-emerald-400">{'    \'Vue.js\', \'Angular\', \'Laravel\',\n'}</span>
                   <span className="text-emerald-400">{'    \'Docker\', \'AWS\', \'CI/CD\',\n'}</span>
                   <span className="text-yellow-400">{'  ]'}</span><span className="text-foreground">{',\n'}</span>
-                  <span className="text-blue-400">{'  contact'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'diallomalamine5@gmail.com\''}</span><span className="text-foreground">{',\n'}</span>
+                  <span className="text-blue-400">{'  contact'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'m.lamine.diallo.pro@gmail.com\''}</span><span className="text-foreground">{',\n'}</span>
                   <span className="text-blue-400">{'  qualities'}</span><span className="text-foreground">{': '}</span><span className="text-emerald-400">{'\'Analyse & Esprit d\'équipe\''}</span><span className="text-foreground">{',\n'}</span>
                   <span className="text-yellow-400">{'}'}</span>
                 </code>
